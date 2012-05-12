@@ -1,0 +1,10 @@
+######################################
+# Module: kvm                        #
+# Path: templates/ifcfg-br0          #
+######################################
+DEVICE=br0
+TYPE=Bridge
+BOOTPROTO=static
+IPADDR=<%= ipaddress %>
+NETMASK=255.255.255.0
+ONBOOT=yes

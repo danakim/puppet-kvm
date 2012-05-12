@@ -1,0 +1,8 @@
+######################################
+# Module: kvm                        #
+# Path: templates/ifcfg-interface    #
+######################################
+DEVICE=eth0
+HWADDR=<%= macaddress %>
+ONBOOT=yes
+BRIDGE=br0
